@@ -1,0 +1,14 @@
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--primary-background-color);
+}
+
+.services.list {
+    margin-bottom: 50px;
+}
+
+.services.list .item:not(:last-child) {
+    margin-right: 8px;
+}
