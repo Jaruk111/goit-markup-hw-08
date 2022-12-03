@@ -1,16 +1,35 @@
 .clients-list {
     display: flex;
-
     text-decoration: none;
+    flex-wrap: wrap;
+    gap: 30px; 
+    
+    @media screen and(min-width: 768px) {
+        flex-wrap: wrap;
+    }
 
-
+    @mixin desktop {
+        
+    }
 }
 
 .clients-item {
-    width: 170px;
+    width: 210px;
     height: 92px;
-
+    
     text-decoration: none;
+    gap: 30px;
+
+    @media screen and(min-width: 768px) {
+        width: 226px; 
+        // width: calc((100%-30) / 2); 
+        height: 92px;
+        }
+    
+     @media screen and(min-width: 1200px) {
+        width: 170px;
+        height: 92px;
+     }
 }
 
 .partners-link {
@@ -38,13 +57,11 @@
 
 }
 
-
-
 .feature-icon {
     fill: currentColor;
 
 }
 
-.clients-item:not(:last-child) {
-    margin-right: 30px;
-}
+// .clients-item:not(:last-child) {
+//     margin-right: 30px;
+// }

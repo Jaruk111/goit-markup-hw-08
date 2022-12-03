@@ -29,14 +29,37 @@
 
 .team.list {
     display: flex;
+    gap: 30px;
+    flex-direction: column;
+
+    
+    @media screen and(min-width: 768px) {
+        flex-direction: row;
+        flex-wrap:wrap;
+
+
+    }
+    
+        @media screen and(min-width: 1200px) {
+            flex-direction: row;
+            
+        }
 }
 
 .team.list .item {
-    width: 270px;
+    width: 450px;
 
-    &:not(:last-child) {
-            margin-right: 30px;
+    @media screen and(min-width: 768px) {           
+         width: 354px;
         }
+    
+        @media screen and(min-width: 1200px) {          
+        width: 270px;
+        }
+
+    // &:not(:last-child) {
+    //         margin-right: 30px;
+    //     }
 }
 
 
