@@ -1124,6 +1124,7 @@ img {
     width: 1200px;
     align-items: baseline;
     justify-content: flex-start;
+    flex-wrap: nowrap;
   }
 }
 
