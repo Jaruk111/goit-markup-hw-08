@@ -22,7 +22,7 @@
 
     @media screen and(min-width: 768px) {
         width: 226px; 
-        // width: calc((100%-30) / 2); 
+        // flex-basis: calc((100% - 30px) / 3); 
         height: 92px;
         }
     
