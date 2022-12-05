@@ -530,7 +530,7 @@ img {
   color: var(--accent-text-color);
 }
 
-.mobile-menu__social-link::after {
+.mobile-menu__item::after {
   content: "";
   position: relative;
   top: 5px;
@@ -1238,7 +1238,7 @@ img {
   display: flex;
   flex-direction: column;
   width: 100%;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .footer-form-subscribe {
