@@ -532,10 +532,13 @@ img {
 
 .mobile-menu__social-link::after {
   content: "";
-  border-right: 22px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  transform: rotate(90deg);
+  position: relative;
+  top: 5px;
+  display: inline-block;
+  background-color: rgba(33, 33, 33, 0.2);
   margin-left: 10px;
+  height: 100%;
+  width: 1px;
 }
 
 .menu-toggle {
@@ -604,7 +607,7 @@ img {
   cursor: pointer;
   border-radius: 4px;
   border: 0;
-  padding: 10px 32px;
+  padding: 10px 24px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero__button:hover, .hero__button:focus {
@@ -614,6 +617,7 @@ img {
 @media screen and (min-width: 1200px) {
   .hero__button {
     width: 216px;
+    padding: 10px 32px;
   }
 }
 
@@ -1008,7 +1012,9 @@ img {
 }
 
 .card-link {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   outline: transparent;
   position: relative;
   overflow: hidden;
@@ -1145,6 +1151,10 @@ img {
   }
 }
 
+.address {
+  width: 216px;
+}
+
 .address-list {
   font-style: normal;
   text-align: center;
@@ -1215,6 +1225,7 @@ img {
   flex-direction: column;
   margin-left: auto;
   width: 100%;
+  align-items: center;
 }
 
 .footer-form-subscribe {

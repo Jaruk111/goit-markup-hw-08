@@ -101,7 +101,7 @@ margin-bottom: 35px;
     
     color: var(--accent-text-color);
 }
-.mobile-menu__social-link::after:not(:last-child) {
+.mobile-menu__social-link::after {
     content: "";
     position: relative;
     top: 5px;
