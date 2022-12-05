@@ -75,7 +75,9 @@
 }
 
 .card-link {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     outline: transparent;
     position: relative;
     overflow: hidden;

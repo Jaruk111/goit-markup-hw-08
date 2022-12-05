@@ -101,10 +101,14 @@ margin-bottom: 35px;
     
     color: var(--accent-text-color);
 }
-.mobile-menu__social-link::after {
+.mobile-menu__social-link::after:not(:last-child) {
     content: "";
-    border-right: 22px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    transform: rotate(90deg);
+    position: relative;
+    // border-right: 22px;
+    // border: 1px solid rgba(33, 33, 33, 0.2);
+    display: inline-block;
+    background-color: rgba(33, 33, 33, 0.2);
     margin-left: 10px;
+    height: 100%;
+    width: 1px;
 }
