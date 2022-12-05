@@ -8,6 +8,8 @@
     padding-top: 200px;
     padding-bottom: 200px;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)) , url(../imeges/hero-bgi/Header_img480@1x.jpg);
             @media (min-device-pixel-ratio: 2),
@@ -53,7 +55,7 @@
     font-weight: 900;
     font-size: 26px;
     line-height: 1,61;
-    width: 360px;        
+    // width: 360px;        
 
     align-items: center;
     text-transform: uppercase;

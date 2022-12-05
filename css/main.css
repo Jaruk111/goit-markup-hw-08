@@ -443,9 +443,12 @@ img {
 }
 
 .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   width: 100vw;
   height: 100vh;
   padding: 32px;
@@ -465,7 +468,6 @@ img {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.02em;
-  margin-bottom: 302px;
   list-style: none;
 }
 
@@ -571,6 +573,8 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imeges/hero-bgi/Header_img480@1x.jpg);
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -942,12 +946,9 @@ img {
   }
 }
 
-.team.list .item {
-  width: 450px;
-}
 @media screen and (min-width: 768px) {
   .team.list .item {
-    width: 354px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1200px) {

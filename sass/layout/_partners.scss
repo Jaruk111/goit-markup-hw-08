@@ -14,20 +14,21 @@
 }
 
 .clients-item {
-    width: 210px;
+    // width: 210px;
+    flex-basis: calc((100% - 30px) / 2);
     height: 92px;
     
     text-decoration: none;
     gap: 30px;
 
     @media screen and(min-width: 768px) {
-        width: 226px; 
-        // flex-basis: calc((100% - 30px) / 3); 
+        // width: 226px; 
+        flex-basis: calc((100% - 30px) / 3); 
         height: 92px;
         }
     
      @media screen and(min-width: 1200px) {
-        width: 170px;
+        // width: 170px;
         height: 92px;
      }
 }
