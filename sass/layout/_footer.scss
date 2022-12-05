@@ -104,8 +104,8 @@
         }
     
         @media screen and(min-width: 1200px) {
-            margin-left: 70px;
-            margin-right: 93px;
+            // margin-left: 70px;
+            // margin-right: 93px;
         }
     }
 
@@ -136,7 +136,7 @@
 .footer-form{
     display: flex;
     flex-direction: column;
-    margin-left: auto;
+    // margin-left: auto;
     // align-items: center;
     width: 100%;
     align-items: center;
@@ -155,7 +155,8 @@
     
         @media screen and(min-width: 1200px) {
             flex-direction: row;
-            // width: 358px;
+            width: auto;
+            text-align: start;
             
     
         }

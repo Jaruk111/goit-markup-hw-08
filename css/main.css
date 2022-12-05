@@ -1213,13 +1213,6 @@ img {
 .container-networks {
   text-align: center;
 }
-@media screen and (min-width: 1200px) {
-  .container-networks {
-    margin-left: 70px;
-    margin-right: 93px;
-  }
-}
-
 .networks-title {
   font-weight: 700;
   font-size: 14px;
@@ -1244,7 +1237,6 @@ img {
 .footer-form {
   display: flex;
   flex-direction: column;
-  margin-left: auto;
   width: 100%;
   align-items: center;
 }
@@ -1262,6 +1254,8 @@ img {
 @media screen and (min-width: 1200px) {
   .footer-form-subscribe {
     flex-direction: row;
+    width: auto;
+    text-align: start;
   }
 }
 
